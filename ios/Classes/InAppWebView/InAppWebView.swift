@@ -2214,10 +2214,6 @@ public class InAppWebView: WKWebView, UIScrollViewDelegate, WKUIDelegate, WKNavi
         onPageCommitVisible(url: url?.absoluteString)
     }
     
-    public func webView(_ webView: WKWebView,
-                        didReceiveServerRedirectForProvisionalNavigation navigation: WKNavigation!) {
-        onDidReceiveServerRedirectForProvisionalNavigation()
-    }
 
     public func webView(_ webView: WKWebView,
                     didReceiveServerRedirectForProvisionalNavigation navigation: WKNavigation!) {

@@ -1,9 +1,9 @@
 package com.pichillilorenzo.flutter_inappwebview.types;
 
+import java.util.Map;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-
-import java.util.Map;
 
 public class UserScript {
   @Nullable
